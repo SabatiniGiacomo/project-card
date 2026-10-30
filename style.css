@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    body{
+        margin: 0;
+        background-color: red;
+
+
+    }
+
+div{
+    width: 75%;
+    padding:10%;
+    margin-top: 40px;
+
+}
+button{
+    padding: 5px;
+    color:white;
+    background-color: green;
+}
+button:hover{
+    color:green;
+    background-color: beige;
+    cursor: pointer;
+}
