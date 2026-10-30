@@ -1,7 +1,22 @@
-console.log('hello world')
-const btn_text=document.getElementById('btn')
-const text=document.querySelector('p');
-btn_text.addEventListener('click',()=>{
-text.style.display='none';
-e.target.textContent='mostra testo';
+console.log('hello world!');
+
+const btn_text = document.getElementById('btn');
+
+const text = document.querySelector('p');
+let counter=0;
+
+ 
+
+btn_text.addEventListener('click', (e)=>{
+    if(counter%2 !=0){
+
+    text.style.display = 'none';
+
+    e.target.textContent = 'Mostra testo';
+    return
+    }
+    text.style.display = 'block';
+
+    e.target.textContent = 'nascondi testo';
+
 })
